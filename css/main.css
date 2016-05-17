@@ -6,6 +6,7 @@ body {
 
 <!-- ul=unordered list -->
 nav ul, footer ul {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -26,21 +27,16 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family: Palatino Linotype;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 p {
-    font-family: Palatino Linotype;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
-    font-family: Palatino Linotype;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-}
-nav {
-    font-family: Palatino Linotype;
 }
 
 ul.posts { 
