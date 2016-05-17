@@ -3,7 +3,6 @@ body {
     width: 70%;
 }
 
-<!-- ul=unordered list -->
 nav ul, footer ul {
     font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif';
     padding: 0px;
@@ -15,7 +14,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-<!-- hyperlink -->
 a {
     text-decoration: none;
     color: #999;
