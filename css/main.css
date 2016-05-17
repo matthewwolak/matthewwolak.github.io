@@ -1,7 +1,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family: Palatino Linotype;
 }
+
+<!-- ul=unordered list -->
 nav ul, footer ul {
     font-family: Palatino Linotype;
     padding: 0px;
@@ -12,23 +15,29 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+<!-- hyperlink -->
 a {
+    font-family: Palatino Linotype;
     text-decoration: none;
     color: #999;
 }
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family: Palatino Linotype;
 }
 p {
+    font-family: Palatino Linotype;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
+    font-family: Palatino Linotype;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
