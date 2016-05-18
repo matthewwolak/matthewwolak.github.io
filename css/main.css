@@ -4,7 +4,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif';
+    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', monospace;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -24,7 +24,7 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif';
+    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', monospace;
 }
 p {
     font-size: 1.5em;
