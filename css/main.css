@@ -17,7 +17,10 @@
 }
 
 body {
-    <!-- margin: 60px auto; -->
+    margin-bottom: 60px auto;
+    margin-left: 40px auto;
+    margin-top: 20px auto;
+    margin-right: 60px auto;
     width: 80%;
 }
 
