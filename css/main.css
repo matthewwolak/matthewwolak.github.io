@@ -18,11 +18,9 @@
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
-#main-container{
-    margin-top: 130px;
-}
+
 
 nav ul, footer ul {
     font-family: 'Linux Biolinum', monospace;
@@ -69,7 +67,5 @@ ul.posts li {
 #main-nav {
     position: fixed;
     width: 100%;
-    top: 30px;
-    height: 100px;
     background: blue;
 }
