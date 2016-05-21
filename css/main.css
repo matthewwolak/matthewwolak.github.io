@@ -17,10 +17,11 @@
 }
 
 body {
-    margin-bottom: 60px auto;
-    margin-left: 40px auto;
-    margin-top: 20px auto;
-    margin-right: 60px auto;
+    <!-- margin-bottom: 60px auto; -->
+    <!-- margin-left: 40px auto; -->
+    <!-- margin-top: 20px auto; -->
+    <!-- margin-right: 60px auto; -->
+    margin: 40px auto;
     width: 80%;
 }
 
