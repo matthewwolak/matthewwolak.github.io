@@ -70,3 +70,7 @@ ul.posts li {
     width: 80%;
     background: green;
 }
+#main-nav h1{
+    margin: 0px;
+}
+
