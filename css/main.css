@@ -65,7 +65,7 @@ ul.posts li {
 }
 
 #main-nav {
-    margin-top: -60px auto;
+    margin: 0px;
     position: fixed;
     width: 80%;
     background: green;
