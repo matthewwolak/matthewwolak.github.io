@@ -73,6 +73,10 @@ ul.posts li {
     left: 0;
     background: green;
 }
+#main-nav a {
+    display: block;
+    width: 60px;
+}
 #main-nav h1{
     margin: 0px;
 }
