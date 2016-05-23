@@ -75,7 +75,12 @@ ul.posts li {
 }
 #main-nav a {
     display: block;
+    text-align: center;
+    padding: 14px 16px;
     width: 60px;
+}
+#main-nav li a:hover{
+    background-color: #111;
 }
 #main-nav h1{
     margin: 0px;
