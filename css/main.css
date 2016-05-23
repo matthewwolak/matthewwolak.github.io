@@ -68,7 +68,9 @@ ul.posts li {
 #main-nav {
     margin: 0px;
     position: fixed;
-    width: 80%;
+    width: 100%;
+    top: 0;
+    left: 0;
     background: green;
 }
 #main-nav h1{
