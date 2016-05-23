@@ -68,12 +68,14 @@ ul.posts li {
 #main-nav {
     margin: 0px;
     padding: 0px;
-    float: left;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     background-color: green;
+}
+#main-nav li {
+    float: left;
 }
 #main-nav a {
     display: block;
