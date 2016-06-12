@@ -115,7 +115,7 @@ ul.posts li {
     font-size: 20px;
     color: white;
     text-align: center;
-    padding: 10px 12px 12px;  /* top then right and left then bottom */
+    padding: 10px 16px 12px;  /* top then right and left then bottom */
 }
 #main-nav li a:hover:not(.active) {
     background-color: #111;
@@ -124,3 +124,7 @@ ul.posts li {
     background-color: black;
 }
 
+
+img {
+     border: 2px solid;
+}
