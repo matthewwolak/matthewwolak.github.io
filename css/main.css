@@ -44,9 +44,41 @@ a:hover {
 }
 
 h1 {
-    font-size: 3em;
     font-family: 'Linux Biolinum', monospace;
 }
+
+h1 {
+<!--    font-size: 3em;  -->
+    font-size: 34px;
+    font-family: 'Linux Biolinum', monospace;
+}
+h1.title {
+    font-size: 38px;
+    font-family: 'Linux Biolinum', monospace;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Linux Biolinum', monospace;
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Linux Biolinum', monospace;
+}
+h4 {
+    font-size: 18px;
+    font-family: 'Linux Biolinum', monospace;
+}
+h5 {
+    font-size: 16px;
+    font-family: 'Linux Biolinum', monospace;
+}
+h6 {
+    font-size: 12px;
+    font-family: 'Linux Biolinum', monospace;
+}
+
+
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
