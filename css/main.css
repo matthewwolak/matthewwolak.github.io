@@ -137,3 +137,13 @@ ul.posts li {
 img {
      border: black 2px solid;
 }
+
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #111;  
+}
+
