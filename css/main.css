@@ -126,8 +126,8 @@ ul.posts li {
 /*    background-image: url(images/newsletter_headline1.gif);   */
     background-repeat: no-repeat;
     background-position: top center;
-    padding-top:68px;
-    margin-bottom:50px;
+    padding-top: 30px;
+    margin-bottom: 50px;
 }
 #headline1 img {
     width: 100%;
