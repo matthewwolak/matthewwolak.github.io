@@ -141,9 +141,9 @@ img {
 
 .floating-box {
     display: inline-block;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #111;  
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    border: 3px solid green;  
 }
 
