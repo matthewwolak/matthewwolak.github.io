@@ -139,22 +139,13 @@ img {
 }
 
 
-.floating-box {
-    display: inline-block;
-    width: 300px;
-    height: 100px;
-    margin: 20px;
-    border: 3px solid green;  
-}
 
 
 
-
-
+/* See Responsive image gallery in css tutorial for screen sizes of different dimensions */
 div.img {
     margin: 20px;
     border: 3px solid green;
-/*    float: left;   */
     display: inline-block;
     width: 300px;
 }
