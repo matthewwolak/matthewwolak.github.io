@@ -17,7 +17,7 @@
 }
 
 body {
-    margin-top: 62px;
+    margin-top: 62fpx;
     margin-left: 60px auto;
     margin-right: 60px auto;
     width: 90%;
@@ -46,39 +46,39 @@ a:hover {
 
 h1 {
 /*    font-size: 3em;  */
-    font-size: 34px;
+    font-size: 38px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 h1.title {
     font-size: 38px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 h2 {
-    font-size: 30px;
+    font-size: 34px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 h3 {
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 h4 {
-    font-size: 18px;
+    font-size: 26px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 h5 {
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 h6 {
-    font-size: 12px;
+    font-size: 20px;
     font-family: 'Linux Biolinum', monospace;
-    color: #333;
+    color: green;
 }
 
 
