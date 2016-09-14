@@ -49,9 +49,10 @@ h1 {
     font-size: 38px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
+    text-align: center;
 }
 h1.title {
-    font-size: 38px;
+    font-size: 40px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
 }
@@ -59,26 +60,31 @@ h2 {
     font-size: 34px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
+    text-align: center;
 }
 h3 {
     font-size: 30px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
+    text-align: center;
 }
 h4 {
     font-size: 26px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
+    text-align: center;
 }
 h5 {
     font-size: 24px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
+    text-align: center;
 }
 h6 {
     font-size: 20px;
     font-family: 'Linux Biolinum', monospace;
     color: green;
+    text-align: center;
 }
 
 
@@ -87,6 +93,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    text-align: center;
 }
 footer {
     border-top: 1px solid #d5d5d5;
