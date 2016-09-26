@@ -190,7 +190,7 @@ footer {
     margin-bottom: 50px;
     width: 100%;
 }
-img.headline1 {
+#headline1 img {
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -199,10 +199,10 @@ img.headline1 {
 
 
 /* Images */
-img {
+/*img {
      border: black 3px solid;
 }
-
+*/
 
 
 
@@ -223,6 +223,7 @@ div.img:hover {
 div.img img {
     width: 100%;
     height: auto;
+    border: black 3px solid;
 }
 
 div.desc {
