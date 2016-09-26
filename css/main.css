@@ -194,8 +194,11 @@ footer {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    border-bottom: black 4px solid;
 }
 
+
+/* Images */
 img {
      border: black 3px solid;
 }
