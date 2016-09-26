@@ -68,6 +68,7 @@ h2 {
     font-family: 'Linux Biolinum', monospace;
     color: green;
     text-align: center;
+    padding: 0px 15px 0px; /* top, left/right, bottom */
 }
 h3 {
     font-size: 30px;
