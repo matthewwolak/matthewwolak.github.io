@@ -212,7 +212,7 @@ div.img {
 
 div.img:hover {
     border: 5px solid green;
-    padding-right: 2px; /* =difference between sizes of div.img img{border} and div.img:hover{border} */
+    padding-right: 3px; /* =size of div.img img{border} */
 }
 
 div.img img {
