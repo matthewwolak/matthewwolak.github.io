@@ -127,6 +127,7 @@ h4.dt {
 }
 p.dd {
     font-size: 1.5em;
+    font-family: 'Linux Biolinum', monospace;
     line-height: 1.4em;
     color: #333;
     text-align: left;
