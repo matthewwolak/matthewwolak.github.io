@@ -112,14 +112,14 @@ dl {
 dt {
     float: left;
     clear: left;
-    width: 30%;  /* width of dd + dt ==100% */
+    width: 15%;  /* width of dd + dt ==100% */
     padding: 0;
     margin: 0;
     /*font-weight: bold;*/ 
 }
 dd {
     float: left;
-    width: 70%;  /* width of dd + dt ==100% */
+    width: 85%;  /* width of dd + dt ==100% */
     padding: 0;
     margin: 0;
 }
