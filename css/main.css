@@ -99,24 +99,32 @@ p {
 
 /* Define style for definition/description list */
 dl {
-    display: block;
-    margin-top: 1em;
+/*    display: block;*/
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+ /*   margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0; */
 }
-/* Definitions */
-/*dt {
+dt {
     float: left;
     clear: left;
-    width: 17%;
+    width: 30%;  /* width of dd + dt ==100% */
+    padding: 0;
+    margin: 0;
     /*font-weight: bold;*/ 
-/*}
+}
 dd {
-    margin-left: 17%;
+    float: left;
+    width: 70%;  /* width of dd + dt ==100% */
+    padding: 0;
+    margin: 0;
 }
 
-*/
+
 
 
 footer {
