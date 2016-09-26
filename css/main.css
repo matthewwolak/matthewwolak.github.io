@@ -16,6 +16,10 @@
          url('../fonts/LinBiolinum_RBah.ttf') format('truetype');
 }
 
+html {
+    background-color: black;
+}
+
 body {
     margin-top: 71px;
     margin-left: 5%; /*60px;*/
