@@ -1,7 +1,11 @@
+
 # Edits
+## Software
+   - Major edit of text
+   - fix formatting
+     - define code etc in css?
 ## Index
    - center pics/boxes in menagerie of subjects
-   - previous edit to make contact header and paragraph left justified didn't work
 
 # Pics
   - Darwin's Origin figure - my research at the branch tips and any past research as previous 'species'
