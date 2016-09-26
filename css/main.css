@@ -100,7 +100,7 @@ p {
 
 /* Define style for definition/description list */
 dl {
-/*    display: block;*/
+    display: block;
     width: 100%;
     overflow: hidden;
     padding: 0;
