@@ -97,6 +97,7 @@ p {
     text-align: center;
 }
 
+
 /* Define style for definition/description list */
 dl {
 /*    display: block;*/
@@ -122,6 +123,17 @@ dd {
     width: 85%;  /* width of dd + dt ==100% */
     padding: 0;
     margin: 0;
+}
+h5.dt {
+    font-size: 24px;
+    font-family: 'Linux Biolinum', monospace;
+    color: green;
+    text-align: left;
+p.dd {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+    text-align: left;
 }
 
 
