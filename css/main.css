@@ -190,7 +190,7 @@ footer {
     margin-bottom: 50px;
     width: 100%;
 }
-#headline1 img {
+img.headline1 {
     width: 100%;
     height: auto;
     margin: 0 auto;
