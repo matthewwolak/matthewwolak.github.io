@@ -205,14 +205,13 @@ footer {
 /** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
 div.img {
     margin: 20px;
-/*    border: 3px solid green;  */
     display: inline-block;
     width: 400px;
 }
 
 div.img:hover {
     border: 5px solid green;
-    padding-right: 3px; /* =size of div.img img{border} */
+    padding-right: 5px; /* =size of div.img:hover{border} */
 }
 
 div.img img {
