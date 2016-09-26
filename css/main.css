@@ -104,14 +104,13 @@ p {
     text-align: justify;
     padding: 0px 15px 0px; /* top, left/right, bottom */
 }
+
 /* below is same as above, but just center aligned */
-p.central {
-    font-size: 1.5em;
-    font-family: 'Linux Biolinum', monospace;
-    line-height: 1.4em;
-    color: #333;
+.central {
     text-align: center;
-    padding: 0px 15px 0px; /* top, left/right, bottom */
+}
+.left {
+    text-align: left;
 }
 
 
