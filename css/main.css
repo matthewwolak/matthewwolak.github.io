@@ -182,7 +182,7 @@ footer {
 
 
 
-/* header picture specifics */
+/* Header picture specifics */
 #headline1 {
     background-repeat: no-repeat;
     background-position: top center;
@@ -198,12 +198,6 @@ footer {
 }
 
 
-/* Images */
-/*img {
-     border: black 3px solid;
-}
-*/
-
 
 
 /* Blocks of pictures */
@@ -217,8 +211,9 @@ div.img {
 }
 
 div.img:hover {
-/*    border: 2px solid #d5d5d5;  */
-    border: 5px solid green;}
+    border: 5px solid green;
+    padding-right: 2px; /* =difference between sizes of div.img img{border} and div.img:hover{border} */
+}
 
 div.img img {
     width: 100%;
