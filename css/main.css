@@ -26,7 +26,6 @@ body {
     margin-right: 5%; /*60px;*/
     width: 90%;
     background-color: white;
-    padding: 0px 10px 0px; /* top, left/right, bottom */
 }
 
 
@@ -103,6 +102,7 @@ p {
     line-height: 1.4em;
     color: #333;
     text-align: justify;
+    padding: 0px 15px 0px; /* top, left/right, bottom */
 }
 
 
@@ -148,6 +148,7 @@ p.dd {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1.1em;
+    padding: 0px 15px 0px; /* top, left/right, bottom */
 }
 
 
