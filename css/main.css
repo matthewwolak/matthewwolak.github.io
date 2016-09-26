@@ -104,6 +104,7 @@ p {
 
 
 /* Define style for definition/description list */
+	/** 	e.g., CV 	**/
 dl {
 /*    display: block; */
     width: 100%;
@@ -147,6 +148,7 @@ footer {
 }
 
 
+/* Navigation bar specifics */
 #main-nav {
     margin: 0px;
     padding: 0px;
@@ -175,7 +177,7 @@ footer {
 
 
 
-
+/* header picture specifics */
 #headline1 {
     background-repeat: no-repeat;
     background-position: top center;
@@ -196,8 +198,9 @@ img {
 
 
 
-
-/* See Responsive image gallery in css tutorial for screen sizes of different dimensions */
+/* Blocks of pictures */
+/**	e.g., index.html study systems	**/
+/** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
 div.img {
     margin: 20px;
 /*    border: 3px solid green;  */
@@ -216,6 +219,7 @@ div.img img {
 
 div.desc {
     font-size: 1.5em;
+    font-family: 'Linux Biolinum', monospace;
     line-height: 1.4em;
     color: #333;
     padding: 15px;
