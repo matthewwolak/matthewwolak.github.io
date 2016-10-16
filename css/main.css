@@ -252,6 +252,10 @@ div.desc {
     width: 350px;
     border: black 3px solid;
 }
+.left-img:hover {
+    border: 5px solid green;
+    padding-right: 5px; /* =size of div.img:hover{border} */
+}
 .right-img {
     float: right;
     margin: 20px;
