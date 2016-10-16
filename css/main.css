@@ -243,32 +243,15 @@ div.desc {
 
 
 
+
 /* Floating images */
 /**	e.g., research.html pictures	**/
-div.img {
+.left-img {
+    float: left;
     margin: 20px;
-    display: inline-block;
-    width: 300px;
-}
-
-
-div.img:hover {
-    border: 5px solid green;
-    padding-right: 5px; /* =size of div.img:hover{border} */
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
+    width: 350px;
     border: black 3px solid;
 }
 
-div.desc {
-    font-size: 1.5em;
-    font-family: 'Linux Biolinum', monospace;
-    line-height: 1.4em;
-    color: #333;
-    padding: 15px;
-    text-align: center;
-}
+
 
