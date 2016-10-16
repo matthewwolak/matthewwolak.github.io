@@ -213,19 +213,19 @@ footer {
 /**	e.g., index.html study systems	**/
 /** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
 /** These two are identical, except the float (left or right positioning) **/
-div.imgL {
+div.img {
 /**    float: left; TEMPORARILY TURN OFF **/
     margin: 20px;
     display: inline-block;
     width: 400px;
 }
-div.imgR {
-/**    float: right; TEMPORARILY TURN OFF **/
+/**div.imgR {
+    float: right;
     margin: 20px;
     display: inline-block;
     width: 400px;
 }
-
+**/
 
 
 div.img:hover {
