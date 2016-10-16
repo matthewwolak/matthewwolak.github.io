@@ -214,13 +214,13 @@ footer {
 /** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
 /** These two are identical, except the float (left or right positioning) **/
 div.imgL {
-    float: left;
+/**    float: left; TEMPORARILY TURN OFF **/
     margin: 20px;
     display: inline-block;
     width: 400px;
 }
 div.imgR {
-    float: right;
+/**    float: right; TEMPORARILY TURN OFF **/
     margin: 20px;
     display: inline-block;
     width: 400px;
