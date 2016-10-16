@@ -106,12 +106,19 @@ p {
     padding: 0px 20px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
 }
 
-/* below is same as above, but just center/left aligned */
+/* below is same as above, but just center/left aligned OR inline-block */
+/** inline-block text displays beside or under, depending on size of window **/
 .central {
     text-align: center;
 }
 .left {
     text-align: left;
+}
+/* below to wrap around div.img */
+.floating-text {
+    display: inline-block;
+    width: 700px;
+    margin: 20px;
 }
 
 
