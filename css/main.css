@@ -256,7 +256,7 @@ div.desc {
     height: auto;
     border: black 3px solid;
 }
-.left-img:hover .dropdown-content {
+.left-img:hover .dropdown-contentL {
     display: block;
 }
 .dropdown-contentL {
@@ -280,7 +280,7 @@ div.desc {
     height: auto;
     border: black 3px solid;
 }
-.right-img:hover .dropdown-content {
+.right-img:hover .dropdown-contentR {
     display: block;
 }
 .dropdown-contentR {
