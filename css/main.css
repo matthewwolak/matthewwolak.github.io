@@ -250,6 +250,10 @@ div.desc {
     float: left;
     margin: 20px;
     width: 350px;
+}
+.left-img img {
+    width: 100%;
+    height: auto;
     border: black 3px solid;
 }
 .left-img:hover .dropdown-content {
