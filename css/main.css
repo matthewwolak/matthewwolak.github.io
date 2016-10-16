@@ -259,6 +259,16 @@ div.desc {
 .left-img:hover .dropdown-content {
     display: block;
 }
+.dropdown-contentL {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 10px 12px;
+    text-align: justify;
+}
+
 
 .right-img {
     float: right;
@@ -273,9 +283,8 @@ div.desc {
 .right-img:hover .dropdown-content {
     display: block;
 }
-
-/* With Dropdown captions */
-.dropdown-content {
+.dropdown-contentR {
+    right: 0;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
