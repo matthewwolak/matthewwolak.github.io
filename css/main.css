@@ -252,6 +252,12 @@ div.desc {
     width: 350px;
     border: black 3px solid;
 }
+.right-img {
+    float: right;
+    margin: 20px;
+    width: 350px;
+    border: black 3px solid;
+}
 
 
 
