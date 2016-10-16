@@ -106,20 +106,15 @@ p {
     padding: 0px 20px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
 }
 
-/* below is same as above, but just center/left aligned OR inline-block */
-/** inline-block text displays beside or under, depending on size of window **/
+/* below is same as above, but just center/left aligned */
 .central {
     text-align: center;
 }
 .left {
     text-align: left;
 }
-/* below to wrap around div.img */
-.floating-text {
-    display: inline-block;
-    width: 700px;
-    margin: 20px;
-}
+
+
 
 
 /* Define style for definition/description list */
@@ -219,6 +214,37 @@ footer {
 /* Blocks of pictures */
 /**	e.g., index.html study systems	**/
 /** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
+div.img {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+}
+
+
+div.img:hover {
+    border: 5px solid green;
+    padding-right: 5px; /* =size of div.img:hover{border} */
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+    border: black 3px solid;
+}
+
+div.desc {
+    font-size: 1.5em;
+    font-family: 'Linux Biolinum', monospace;
+    line-height: 1.4em;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+/* Floating images */
+/**	e.g., research.html pictures	**/
 div.img {
     margin: 20px;
     display: inline-block;
