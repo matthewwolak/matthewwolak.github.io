@@ -237,6 +237,7 @@ div.desc {
     line-height: 1.4em;
     color: #333;
     padding: 10px;
+    text-align: center;
 }
 
 
@@ -251,7 +252,6 @@ div.desc {
     max-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     padding: 6px;
-    text-align: center;
 }
 .img-desc {
     font-size: 1.5em;
