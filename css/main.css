@@ -238,12 +238,20 @@ div.img img {
 
 /* Floating images */
 /**	e.g., research.html pictures	**/
+.teaser-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 10px 12px;
+    text-align: justify;
+}
 .img-desc {
     font-size: 1.5em;
     font-family: 'Linux Biolinum', monospace;
     line-height: 1.4em;
     color: #333;
-    padding: 15px;
+    padding: 10px;
 }
 
 .left-img {
@@ -258,14 +266,6 @@ div.img img {
 }
 .left-img:hover .dropdown-contentL {
     display: block;
-}
-.teaser-contentL {
-    position: absolute;
-    background-color: #f9f9f9;
-    max-width: 350px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-    padding: 10px 12px;
-    text-align: justify;
 }
 .dropdown-contentL {
     display: none;
