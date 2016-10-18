@@ -37,10 +37,12 @@
 
 		  <p>I have created the <span class="code">R</span> package, <span class="code">ICC</span> to be used for the planning of experiments and analysis of data to estimate the intraclass correlation coefficient (Wolak et al. 2012). The package includes functions to 1) estimate the ICC and it's associated confidence limits and 2) calculate the <em>n</em> number of individuals/groups necessary to estimate the ICC, given <em>k</em> number of observations per individual/group and a desired confidence interval width, <em>w</em>.</p>
 
-		  <p>The current version is available for download from the <a target="_blank" href="http://cran.r-project.org/package=ICC">CRAN website</a> or the <a target="_blank" href="https://github.com/matthewwolak/ICC">package GitHub page</a>. Please give any feedback, comments, or issues using the e-mail address listed in the package or on the <a target="_blank" href="https://github.com/matthewwolak/ICC">package GitHub page</a>.</p>
+		  <p>The current version is available for download from the <a target="_blank" href="https://cran.r-project.org/package=ICC">CRAN website</a> or the <a target="_blank" href="https://github.com/matthewwolak/ICC">package GitHub page</a>. Please give any feedback, comments, or issues using the e-mail address listed in the package or on the <a target="_blank" href="https://github.com/matthewwolak/ICC">package GitHub page</a>.</p>
  
 
 <!-- TODO add notice/links to gists --> 
+
+
 
 
 
@@ -57,21 +59,35 @@
 		  </div>
 
 
+		  <p>The <span class="code">R</span> package <span class="code">nadiv</span>, which loosely stands for (<span class="code"><b>N</b></span>on-)<span class="code"><b>AD</b></span>ditive <span class="code"><b>I</b></span>n<span class="code"><b>V</b></span>erse, to facilitate the estimation of additive and non-additive genetic variances using the linear mixed effects model known (often referred to as the <em>animal model</em>). The package includes functions to compute the inverse of autosomal and sex-chromosomal additive, autosomal dominance, and autosomal epistatic (digenic) relatedness matrices from a pedigree.</p>
 
-		<h4>Sex-linkage</h4>
-		  <p>I have created some R functions to construct sex-chromosome relationship
-matrices. These matrices are analagous to the typical numerator relationship matrix (often referred to as <span style="font-weight: bold;">A</span>). However, these sex-linked relationship matrices differ from <span style="font-weight: bold;">A</span> as a result of the difference in inheritance patterns between autosomes and sex chromosomes. I have developed algorithms based on the one presented in Fernando and Grossman (TAG 1990 vol. 80) to also facilitate construction of the relationship matrices under different models of global sex chromosomal dosage compensation (e.g., random X-inactivation).</p>
+		  <p>Output from <span class="code">nadiv</span> can be used by some mixed model software programs (e.g., MCMCglmm, ASReml, & WOMBAT). There are a number of other functions included in the package that are quite useful when dealing with pedigrees or running animal models. For example, <span class="code"proLik()</span> constructs profile likelihoods of variance components from an ASReml-R mixed model, <span class="code">aiFun()</span> creates a (co)variance and correlation matrix from the sampling (co)variances of the random effects in an ASReml-R model object. Also, <span class="code">findDFC()</span> will show you which pairs of individuals in a pedigree are double first cousins as well as indicate the number of families where you get these relationships. Knowing this information is useful for understanding the extent to which maternal permanent environment effects can be separated from dominance genetic effects.</p>
 
-<p>This will enable researchers to estimate sex-linked additive genetic variance using a range of animal model software programs (i.e., ASReml, WOMBAT, MCMCglmm). Please don't hesitate to leave feedback through the GitHub page for nadiv if you have any comments or suggestions.</p>
+		  <p>The current version is available for download from the <a target="_blank" href="https://cran.r-project.org/package=nadiv">CRAN website</a> or the <a target="_blank" href="https://github.com/matthewwolak/nadiv">package GitHub page</a>. Please give any feedback, comments, or issues using the e-mail address listed in the package or on the <a target="_blank" href="https://github.com/matthewwolak/nadiv">package GitHub page</a>.</p>
+
+
+
+
+
+
 
 
 		<h4>Non-additive genetic variances</h4>
-		  <p>I made the R package <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">nadiv</span> (<span style="font-weight: bold;">N</span>on-<span style="font-weight: bold;">AD</span>ditive <span style="font-weight: bold;">I</span>n<span style="font-weight: bold;">V</span>erse), to facilitate the estimation of non-additive genetic variances using the linear mixed effects model known as the 'animal model'. The package includes functions to compute the inverse of autosomal and sex-chromosomal additive, autosomal dominance, and autosomal epistatic (digenic) relatedness matrices from a pedigree. The output can be used by common animal model software programs (e.g., MCMCglmm, ASReml, WOMBAT, etc.). There are a number of other functions included in the package that are quite useful when dealing with pedigrees or running animal models. For example, 'proLik()' constructs profile likelihoods of variance components from an ASReml-R mixed model, 'aiFun()' creates a (co)variance and correlation matrix from the sampling (co) variances of the random effects in an ASReml-R model object. Also, 'findDFC()' will show you which pairs of individuals in a pedigree are double first cousins as well as indicate the number of families where you get these relationships. Knowing this information is useful for understanding the extent to which maternal permanent environment effects can be separated from dominance genetic effects.</p>
 
-		  <p>The package is available on CRAN <span style="font-family: Helvetica,Arial,sans-serif;">(<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>)</span>. I have a paper published in <a target="_blank" href="/cv"><span style="font-style: italic;">Methods in Ecology and Evolution</span></a> which introduces <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">nadiv</span> and gives explanations for some of the main functions. The paper includes Supplementary Information, which contains examples on how to use the output of <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">nadiv</span> in MCMCglmm, ASReml-R, ASReml, and WOMBAT. Feel free to leave feedback through the GitHub page for nadiv.</p>
-
+		  <p>Wolak (2012) gives explanations for some of the main functions in <span class="code">nadiv</span>. The paper includes Supplementary Information, which contains examples on how to use the output of <span class="code">nadiv</span> in MCMCglmm, ASReml-R, ASReml, and WOMBAT.</p>
 
 
+
+
+		<h4>Sex-linkage/Haplodiploidy</h4>
+		  <p>The <span class="code">R</span> package <span class="code">nadiv</span> contains functions to construct sex-chromosomal additive genetic relatedness matrices in the case of X/Z chromosomes. The relatedness matrices are analagous to the typical numerator relationship matrix (often referred to as <b>A</b>), but reflect the covariance among relatives as a result of the different inheritance patterns of sex chromosomes as compared to the autosomes. Note that this inheritance pattern is also the same as what would be expected in haplodiploid organisms (e.g., among some insects)</p>
+
+		  <p>The functions to construct the inverse of the sex-chromosomal additive genetic relatedness matrices implement algorithms I developed<!-- TODO link to chapter of dissertation --> for different models of global sex-chromosomal dosage compensation (e.g., random X-inactivation). These algorithms are based on Fernando & Grossman (TAG 1990 vol. 80). With these matrices, researchers can estimate sex-linked additive genetic variances using a range of mixed model software programs that allow users to supply genearlized inverse covariance matrices (i.e., ASReml, WOMBAT, MCMCglmm).</p>
+
+		  <p>In addition, there are functions to trace the inheritance of the Y/W chromosomes and create factors to then use a mixed model to estimate the variance due to Y/W chromosomes.</p> 
+
+
+		<h4>Genetic groups</h4>
 
 
 
