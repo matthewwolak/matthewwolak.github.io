@@ -220,7 +220,6 @@ div.img {
     width: 300px;
 }
 
-
 div.img:hover {
     border: 5px solid green;
     padding-right: 5px; /* =size of div.img:hover{border} */
@@ -239,6 +238,7 @@ div.img img {
 /* Floating images */
 /**	e.g., research.html pictures	**/
 .teaser-content {
+    float: left;
     position: absolute;
     background-color: #f9f9f9;
     max-width: 350px;
