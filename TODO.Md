@@ -25,3 +25,6 @@
     - See Image map for clickable areas?: http://www.w3schools.com/html/html_images.asp
   - Mojave&Granites5-13to5-15-2011: snake handling with students
   - SantaRosaPlateau4-8-12: water strider mating, DSC_0077.jpg
+
+# Search facility
+  - see Cox lab at UVA page
