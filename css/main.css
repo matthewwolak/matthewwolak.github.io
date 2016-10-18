@@ -232,7 +232,7 @@ div.img img {
 }
 
 div.desc {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Linux Biolinum', monospace;
     line-height: 1.4em;
     color: #333;
@@ -254,11 +254,11 @@ div.desc {
     padding: 6px;
 }
 .img-desc {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Linux Biolinum', monospace;
     line-height: 1.4em;
     color: #333;
-    padding: 10px;
+    padding: 6px;
 }
 
 .left-img {
