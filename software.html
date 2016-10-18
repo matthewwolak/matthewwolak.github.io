@@ -27,38 +27,69 @@
 
 
         	<h1>Matthew Wolak's software</h1>
-		<h3>Sex-linkage</h3>
+
+
+
+
+
+		  <h2>Repeatability</h2>
+		  <p>I have created an R package, <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">ICC</span>, to be used in the estimation of the <span style="font-weight: bold;">I</span>ntraclass <span style="font-weight: bold;">C</span>orrelation <span style="font-weight: bold;">C</span>oefficient (ICC). This package accompanies our paper on repeatability (<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>)</span>. I have a paper published in <a target="_blank" href="/cv">Wolak et al., (2011) Guidelines for estimating repeatability.</a>) The package includes functions to 1) estimate the ICC and it's associated confidence limits and 2) calculate the </span><span style="font-style: italic; font-family: Helvetica,Arial,sans-serif;">n</span><span style="font-family: Helvetica,Arial,sans-serif;"> number of individuals/groups necessary to estimate the ICC, given </span><span style="font-style: italic; font-family: Helvetica,Arial,sans-serif;">k</span><span style="font-family: Helvetica,Arial,sans-serif;"> number of observations per individual/group and a desired confidence interval width, </span><span style="font-style: italic; font-family: Helvetica,Arial,sans-serif;">w</span><span style="font-family: Helvetica,Arial,sans-serif;">. The current version is available for download from the CRAN website (<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>) or the project webpage at R-Forge (</span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://r-forge.r-project.org/" target="_blank">http://r-forge.r-project.org/</a><span style="font-family: Helvetica,Arial,sans-serif;">).</span><span style="font-family: Helvetica,Arial,sans-serif;"> Please feel free to leave feedback through the GitHub page for ICC.</p>
+ 
+
+
+		  <h2>Explaining phenotypic resemblance among relatives</h2>
+
+                <div class="left-img">
+<!-- TODO X chromosome image -->
+		    <img src="https://openclipart.org/download/3730/FunDraw-dot-com-Welder.svg" alt="Pardon the dust"> 
+  		    <div class="dropdown-contentL">
+    		      <div class="img-desc">More about methods to come</div>
+		    </div>
+		      <p class="img-desc">More about ...</p>
+		  </div>
+
+
+
+		<h4>Sex-linkage</h4>
 		  <p>I have created some R functions to construct sex-chromosome relationship
 matrices. These matrices are analagous to the typical numerator relationship matrix (often referred to as <span style="font-weight: bold;">A</span>). However, these sex-linked relationship matrices differ from <span style="font-weight: bold;">A</span> as a result of the difference in inheritance patterns between autosomes and sex chromosomes. I have developed algorithms based on the one presented in Fernando and Grossman (TAG 1990 vol. 80) to also facilitate construction of the relationship matrices under different models of global sex chromosomal dosage compensation (e.g., random X-inactivation).</p>
 
 <p>This will enable researchers to estimate sex-linked additive genetic variance using a range of animal model software programs (i.e., ASReml, WOMBAT, MCMCglmm). Please don't hesitate to leave feedback through the GitHub page for nadiv if you have any comments or suggestions.</p>
 
 
-		<h3>Non-additive genetic variances</h3>
+		<h4>Non-additive genetic variances</h4>
 		  <p>I made the R package <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">nadiv</span> (<span style="font-weight: bold;">N</span>on-<span style="font-weight: bold;">AD</span>ditive <span style="font-weight: bold;">I</span>n<span style="font-weight: bold;">V</span>erse), to facilitate the estimation of non-additive genetic variances using the linear mixed effects model known as the 'animal model'. The package includes functions to compute the inverse of autosomal and sex-chromosomal additive, autosomal dominance, and autosomal epistatic (digenic) relatedness matrices from a pedigree. The output can be used by common animal model software programs (e.g., MCMCglmm, ASReml, WOMBAT, etc.). There are a number of other functions included in the package that are quite useful when dealing with pedigrees or running animal models. For example, 'proLik()' constructs profile likelihoods of variance components from an ASReml-R mixed model, 'aiFun()' creates a (co)variance and correlation matrix from the sampling (co) variances of the random effects in an ASReml-R model object. Also, 'findDFC()' will show you which pairs of individuals in a pedigree are double first cousins as well as indicate the number of families where you get these relationships. Knowing this information is useful for understanding the extent to which maternal permanent environment effects can be separated from dominance genetic effects.</p>
 
 		  <p>The package is available on CRAN <span style="font-family: Helvetica,Arial,sans-serif;">(<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>)</span>. I have a paper published in <a target="_blank" href="/cv"><span style="font-style: italic;">Methods in Ecology and Evolution</span></a> which introduces <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">nadiv</span> and gives explanations for some of the main functions. The paper includes Supplementary Information, which contains examples on how to use the output of <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">nadiv</span> in MCMCglmm, ASReml-R, ASReml, and WOMBAT. Feel free to leave feedback through the GitHub page for nadiv.</p>
 
-		<h3>Repeatability</h3>
-		  <p>I have created an R package, <span style="font-family: Courier New,Courier,monospace; font-weight: bold;">ICC</span>, to be used in the estimation of the <span style="font-weight: bold;">I</span>ntraclass <span style="font-weight: bold;">C</span>orrelation <span style="font-weight: bold;">C</span>oefficient (ICC). This package accompanies our paper on repeatability (<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>)</span>. I have a paper published in <a target="_blank" href="/cv">Wolak et al., (2011) Guidelines for estimating repeatability.</a>) The package includes functions to 1) estimate the ICC and it's associated confidence limits and 2) calculate the </span><span style="font-style: italic; font-family: Helvetica,Arial,sans-serif;">n</span><span style="font-family: Helvetica,Arial,sans-serif;"> number of individuals/groups necessary to estimate the ICC, given </span><span style="font-style: italic; font-family: Helvetica,Arial,sans-serif;">k</span><span style="font-family: Helvetica,Arial,sans-serif;"> number of observations per individual/group and a desired confidence interval width, </span><span style="font-style: italic; font-family: Helvetica,Arial,sans-serif;">w</span><span style="font-family: Helvetica,Arial,sans-serif;">. The current version is available for download from the CRAN website (<a href="http://cran.r-project.org/">http://cran.r-project.org/</a>) or the project webpage at R-Forge (</span><a style="font-family: Helvetica,Arial,sans-serif;" href="http://r-forge.r-project.org/" target="_blank">http://r-forge.r-project.org/</a><span style="font-family: Helvetica,Arial,sans-serif;">).</span><span style="font-family: Helvetica,Arial,sans-serif;"> Please feel free to leave feedback through the GitHub page for ICC.</p>
-      
-      		<h3>Line Cross Analyses</h3>
-		  <p>I am currently developing an R package to perform joint scaling
-tests. A joint scaling test (JST) uses the relationships between
-generation means of two parental populations, F1, F2, and backcrosses
-to estimate the magnitude and standard errors of net genetic components
-responsible for the differences in phenotype observed between two
-populations (for further information, see Lynch and Walsh . 1998.
-Genetics and Analysis of Quantitative Traits). JSTs are
-goodness-of-fit tests, assessed by least-squares regression, between
-the observed generation means and the expected generation means under a
-particular genetic model. Functions in the package will include the
-basic joint scaling test, model comparisons using log-likelihood,
-visual presentation of observed and modeled data, and a way to pick and
-choose modeled effects from among many genetic effects available.
-I hope to have preliminary versions of the package on GitHub
-soon. Again, please send me any and all comments about what to include in this
-package.</p>
+
+
+
+
+
+
+		  <h2>Estimating net genetic effects that explain differences between populations</h2>
+
+
+                <div class="right-img">
+<!-- TODO line cross graph -->
+		    <img src="https://openclipart.org/download/3730/FunDraw-dot-com-Welder.svg" alt="Pardon the dust"> 
+  		    <div class="dropdown-contentR">
+    		      <div class="img-desc">More about methods to come</div>
+		    </div>
+		      <p class="img-desc">More about ...</p>
+		  </div>
+
+
+
+
+
+
+
+
+     
+      		  <h2>Line Cross Analyses</h2>
+		  <p>I am currently developing an R package to perform joint scaling tests. A joint scaling test (JST) uses the relationships between generation means of two parental populations, F1, F2, and backcrosses to estimate the magnitude and standard errors of net genetic components responsible for the differences in phenotype observed between two populations (for further information, see Lynch and Walsh . 1998. Genetics and Analysis of Quantitative Traits). JSTs are goodness-of-fit tests, assessed by least-squares regression, between the observed generation means and the expected generation means under a particular genetic model. Functions in the package will include the basic joint scaling test, model comparisons using log-likelihood, visual presentation of observed and modeled data, and a way to pick and choose modeled effects from among many genetic effects available. I hope to have preliminary versions of the package on GitHub soon. Again, please send me any and all comments about what to include in this package.</p>
 
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
