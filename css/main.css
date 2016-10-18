@@ -251,6 +251,7 @@ div.desc {
     font-family: 'Linux Biolinum', monospace;
     line-height: 1.4em;
     color: #333;
+    margin: 1px 20px 1px; /* top right/left bottom */
     padding: 5px 5px 5px 2px;/*6px;*/
     text-align: center;
 }
