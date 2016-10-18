@@ -232,20 +232,20 @@ div.img img {
     border: black 3px solid;
 }
 
-div.desc {
-    font-size: 1.5em;
-    font-family: 'Linux Biolinum', monospace;
-    line-height: 1.4em;
-    color: #333;
-    padding: 15px;
-    text-align: center;
-}
 
 
 
 
 /* Floating images */
 /**	e.g., research.html pictures	**/
+.img-desc {
+    font-size: 1.5em;
+    font-family: 'Linux Biolinum', monospace;
+    line-height: 1.4em;
+    color: #333;
+    padding: 15px;
+}
+
 .left-img {
     float: left;
     margin: 20px;
