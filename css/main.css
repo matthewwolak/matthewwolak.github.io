@@ -231,6 +231,14 @@ div.img img {
     border: black 3px solid;
 }
 
+div.img-desc {
+    font-size: 1.5em;
+    font-family: 'Linux Biolinum', monospace;
+    line-height: 1.4em;
+    color: #333;
+    padding: 10px;
+}
+
 
 
 
@@ -238,7 +246,6 @@ div.img img {
 /* Floating images */
 /**	e.g., research.html pictures	**/
 .teaser-content {
-    float: left;
     position: absolute;
     background-color: #f9f9f9;
     max-width: 350px;
