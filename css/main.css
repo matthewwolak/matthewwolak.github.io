@@ -1,5 +1,7 @@
 /* TODO define boldness for the font. Decrease regular and increase for italics */
-/** see font-weight at http://www.w3schools.com/css/css3_fonts.asp **/
+  /** see font-weight at http://www.w3schools.com/css/css3_fonts.asp **/
+/* ALSO set an expiration header for the CSS file and a whooping one on the actual font resource ***/
+  /** See suggestions: https://www.paulirish.com/2009/fighting-the-font-face-fout/ **/
 @font-face {
     font-family: 'Linux Biolinum';
     src: url('../fonts/LinBiolinum_R.woff') format('woff'),
@@ -32,7 +34,7 @@ body {
 
 
 nav ul, footer ul {
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -56,43 +58,42 @@ a:hover {
 h1 {
 /*    font-size: 3em;  */
     font-size: 38px;
-    font-family: 'Linux Biolinum', monospace;
-    color: green;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     text-align: center;
 }
 h1.title {
     font-size: 40px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
 }
 h2 {
     font-size: 34px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
     text-align: center;
     padding: 0px 15px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
 }
 h3 {
     font-size: 30px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
     text-align: center;
 }
 h4 {
     font-size: 26px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
     text-align: center;
 }
 h5 {
     font-size: 24px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
     text-align: center;
 }
 h6 {
     font-size: 20px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
     text-align: center;
 }
@@ -101,7 +102,7 @@ h6 {
 
 p {
     font-size: 1.5em;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     line-height: 1.4em;
     color: #333;
     text-align: justify;
@@ -146,14 +147,14 @@ dd {
 }
 h4.dt {
     font-size: 26px;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     color: green;
     text-align: left;
     padding: 0px 20px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
 }
 p.dd {
     font-size: 1.5em;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     line-height: 1.4em;
     color: #333;
     text-align: left;
@@ -238,7 +239,7 @@ div.img img {
 
 div.desc {
     font-size: 1.3em;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     line-height: 1.4em;
     color: #333;
     padding: 8px;
@@ -253,7 +254,7 @@ div.desc {
 /**	e.g., research.html pictures	**/
 .img-desc {
     font-size: 1.3em;
-    font-family: 'Linux Biolinum', monospace;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     line-height: 1.4em;
     color: #333;
     margin: 1px 20px 1px; /* top right/left bottom */
