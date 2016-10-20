@@ -1,3 +1,5 @@
+/* TODO define boldness for the font. Decrease regular and increase for italics */
+/** see font-weight at http://www.w3schools.com/css/css3_fonts.asp **/
 @font-face {
     font-family: 'Linux Biolinum';
     src: url('../fonts/LinBiolinum_R.woff') format('woff'),
