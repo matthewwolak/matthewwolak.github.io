@@ -31,6 +31,7 @@
 
 
 		  <h2>Repeatability</h2>
+
 		    <h4><span class="code">R</span> package <span class="code">ICC</span>: downloaded <embed src="http://cranlogs.r-pkg.org/badges/last-day/ICC"><embed src="http://cranlogs.r-pkg.org/badges/ICC"> and since October 2012 <embed src="http://cranlogs.r-pkg.org/badges/grand-total/ICC"></h4>
 
 		  <p>The intraclass correlation coefficient (ICC) is a commonly used and widespread summary statistic. The ICC is a ratio of variances and measures repeatability and can also be used to assess measurement error. Both of these uses are popular across a very diverse range of scientific fields, such as: agricultural production and animal health, human health, geology, biochemistry, psychology, and ecology & evolutionary biology.</p> 
@@ -47,10 +48,18 @@
 
 
 		  <h2>Explaining phenotypic resemblance among relatives</h2>
+
 		    <h4><span class="code">R</span> package <span class="code">nadiv</span>: downloaded <embed src="http://cranlogs.r-pkg.org/badges/last-day/nadiv"><embed src="http://cranlogs.r-pkg.org/badges/nadiv"> and since October 2012 <embed src="http://cranlogs.r-pkg.org/badges/grand-total/nadiv"></h4>
 
                 <div class="left-img">
-<!-- TODO X chromosome image -->
+<span class="code">R</span> package <span class="code">nadiv</span>: downloaded <embed src="http://cranlogs.r-pkg.org/badges/last-day/nadiv"><embed src="http://cranlogs.r-pkg.org/badges/nadiv"> and since October 2012 <embed src="http://cranlogs.r-pkg.org/badges/grand-total/nadiv">  		    <div class="dropdown-contentL">
+    		      <div class="img-desc">Package download statistics from the API to download logs on the RStudio CRAN mirror</div>
+		    </div>
+		      <p class="img-desc">Package download stat...</p>
+		  </div>
+
+<!--                 <div class="left-img">
+TODO X chromosome image
 		    <img src="https://openclipart.org/download/3730/FunDraw-dot-com-Welder.svg" alt="Pardon the dust"> 
   		    <div class="dropdown-contentL">
     		      <div class="img-desc">More about methods to come</div>
@@ -58,6 +67,7 @@
 		      <p class="img-desc">More about ...</p>
 		  </div>
 
+-->
 
 		  <p>The <span class="code">R</span> package <span class="code">nadiv</span>, which loosely stands for (<span class="code">N</span>on-)<span class="code">AD</span>ditive <span class="code">I</span>n<span class="code">V</span>erses, was created to facilitate the estimation of additive and non-additive genetic variances using linear mixed effects models (often referred to as <em>animal models</em>). The package includes functions to compute the inverse of autosomal and sex-chromosomal additive, autosomal dominance, and autosomal epistatic (digenic) relatedness matrices from a pedigree. Other handy (<em>at least I think they're handy</em>) functions standardize some pedigree manipulation and simulation procedures.</p>
 
@@ -79,7 +89,7 @@
 
 
 
-		<h4>Sex-linkage/Haplodiploidy</h4>
+		<h4>Sex-linkage & Haplodiploidy</h4>
 
 		  <p>The <span class="code">R</span> package <span class="code">nadiv</span> contains functions to construct sex-chromosomal additive genetic relatedness matrices in the case of X or Z chromosomes. The relatedness matrices are analagous to the typical numerator relationship matrix (often referred to as <b>A</b>), but reflect the covariance among relatives as a result of the different inheritance patterns of sex chromosomes as compared to the autosomes. Note that this inheritance pattern is also the same as what would be expected in haplodiploid organisms (e.g., some insects such as bees and wasps)</p>
 
@@ -90,6 +100,7 @@
 
 		<h4>Genetic groups</h4>
 
+<!-- TODO make/add figure of phenotypic trend (similar to figs 2&4 from Wolak & Reid 2016). ->
 
 
 
@@ -114,7 +125,9 @@
 
      
       		  <h2>Line Cross Analyses</h2>
-		  <p>I am currently developing an R package to perform joint scaling tests. A joint scaling test (JST) uses the relationships between generation means of two parental populations, F1, F2, and backcrosses to estimate the magnitude and standard errors of net genetic components responsible for the differences in phenotype observed between two populations (for further information, see Lynch and Walsh . 1998. Genetics and Analysis of Quantitative Traits). JSTs are goodness-of-fit tests, assessed by least-squares regression, between the observed generation means and the expected generation means under a particular genetic model. Functions in the package will include the basic joint scaling test, model comparisons using log-likelihood, visual presentation of observed and modeled data, and a way to pick and choose modeled effects from among many genetic effects available. I hope to have preliminary versions of the package on GitHub soon. Again, please send me any and all comments about what to include in this package.</p>
+		  <p>I am currently developing an R package to perform joint scaling tests. A joint scaling test (JST) uses the relationships between generation means of two parental populations, F1, F2, and backcrosses to estimate the magnitude and standard errors of net genetic components responsible for the differences in phenotype observed between two populations (further information in Lynch and Walsh. 1998. Genetics and Analysis of Quantitative Traits). JSTs are goodness-of-fit tests, assessed by least-squares regression, between the observed generation means and the expected generation means under a particular genetic model.</p>
+
+		  <p>Functions in the package will include the basic joint scaling test, model averaging using an information-theoretic method (Akaike's Information Criterion), visual presentation of observed and modeled data, and a way to pick and choose modeled effects from among many genetic effects available. I will eventually have a preliminary version of the package on GitHub... Again, please send me any and all comments about what to include in this package.</p>
 
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
