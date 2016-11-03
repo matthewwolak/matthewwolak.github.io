@@ -1,6 +1,4 @@
-/* TODO define boldness for the font. Decrease regular and increase for italics */
-  /** see font-weight at http://www.w3schools.com/css/css3_fonts.asp **/
-/* ALSO set an expiration header for the CSS file and a whooping one on the actual font resource ***/
+/* TODO set an expiration header for the CSS file and a whooping one on the actual font resource ***/
   /** See suggestions: https://www.paulirish.com/2009/fighting-the-font-face-fout/ **/
 @font-face {
     font-family: 'Linux Biolinum';
