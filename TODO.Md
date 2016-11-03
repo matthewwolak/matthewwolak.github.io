@@ -1,11 +1,5 @@
 
 # Edits
-## css
-   - make default font NOT monospace
-## Software
-   - Major edit of text
-   - fix formatting
-   
 
 ## Index
    - center pics/boxes in menagerie of subjects
