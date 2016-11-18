@@ -246,7 +246,7 @@ div.desc {
     color: #333;
     max-width: 300px;
     padding: 8px 2px;  /* top/bottom then right/left  */
-    text-align: justify;
+    text-align: center;
 }
 
 
