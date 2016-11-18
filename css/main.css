@@ -224,7 +224,7 @@ footer {
 div.img {
     margin: 20px;
     display: inline-block;
-    width: 300px;
+    height: 300px;
 }
 
 div.img:hover {
