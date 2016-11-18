@@ -234,7 +234,7 @@ div.img:hover {
 
 div.img img {
     width: auto;
-    height: 100%;
+    height: 90%;
     border: black 3px solid;
 }
 
