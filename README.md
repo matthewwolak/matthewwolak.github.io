@@ -1,5 +1,5 @@
 # matthewwolak.github.io
-[Matthew Wolak's website](http://matthewwolak.github.io)
+[Matthew Wolak's website](https://matthewwolak.github.io)
 
 <br>
 <br>
