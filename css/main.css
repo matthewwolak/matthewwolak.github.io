@@ -244,8 +244,9 @@ div.desc {
     font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     line-height: 1.4em;
     color: #333;
+    max-width: 300px;
     padding: 8px 2px;  /* top/bottom then right/left  */
-    text-align: center;
+    text-align: justify;
 }
 
 
