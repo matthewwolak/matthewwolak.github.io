@@ -229,7 +229,8 @@ div.img {
 
 div.img:hover {
     border: 5px solid green;
-    padding-right: 5px; /* =size of div.img:hover{border} */
+/*if size by width:    padding-right: 5px; /* =size of div.img:hover{border} */   
+   padding-bottom: 5px; /* = size of div.img:hover{border} */
 }
 
 div.img img {
