@@ -224,7 +224,8 @@ footer {
 
 }
 #rightbar {
-/*    position: relative; */
+    position: absolute;
+    right: 0px;
 /*    margin-left: 250px; */
     width: 30%
 }
