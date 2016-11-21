@@ -196,9 +196,8 @@ footer {
 #main-nav li a:hover:not(.active) {
     background-color: #111;
 }
-#main-nav li a:(.active) {
+#main-nav li a.active {
     background-color: #111;
-/*    background-color: black; */
     color: white;
 }
 
