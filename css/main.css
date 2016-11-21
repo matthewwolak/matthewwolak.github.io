@@ -220,10 +220,7 @@ footer {
 
 /* main content and sidebar */
 #main {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    position: relative;
 /*    width: 240px; */
     width: 60%;
 
