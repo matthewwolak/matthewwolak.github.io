@@ -220,12 +220,11 @@ footer {
 
 /* main content and sidebar */
 #main {
-/*    position: relative; */
     width: 60%;
 
 }
 #rightbar {
-    position: relative;
+/*    position: relative; */
 /*    margin-left: 250px; */
     width: 30%
 }
