@@ -228,7 +228,7 @@ footer {
 #rightbar {
     position: absolute;
     right: 0px;
-/*    float: right; */
+/*    float: right;  alternative, use this line instead of position and right */
     width: 30%
 }
 
