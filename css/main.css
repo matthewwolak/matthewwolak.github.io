@@ -191,7 +191,7 @@ footer {
     font-size: 1.75em;
     color: white;
     text-align: center;
-    padding: 4px 16px 8px;  /* top, right/left, bottom */
+    padding: 2px 16px 6px;  /* top, right/left, bottom */
     margin: 0px;
 }
 #main-nav li a:hover:not(.active) {
