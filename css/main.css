@@ -29,7 +29,7 @@ body {
     margin-top: 71px;
     margin-left: 5%; /*60px;*/
     margin-right: 5%; /*60px;*/
-    width: 80%;
+    width: 90%;
     background-color: white;
 }
 
@@ -220,8 +220,7 @@ footer {
 
 /* main content and sidebar */
 #main {
-    position: relative;
-/*    width: 240px; */
+/*    position: relative; */
     width: 60%;
 
 }
