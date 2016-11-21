@@ -197,7 +197,8 @@ footer {
     background-color: #111;
 }
 #main-nav li a:(.active) {
-    background-color: black;
+    background-color: #111;
+/*    background-color: black; */
 }
 
 
