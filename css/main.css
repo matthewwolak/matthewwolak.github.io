@@ -164,7 +164,9 @@ p.dd {
 }
 
 
-
+img.icon {
+    font-size: 2em;
+}
 
 footer {
     border-top: 1px solid #d5d5d5;
