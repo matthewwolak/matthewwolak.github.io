@@ -29,6 +29,8 @@ body {
     margin-top: 71px;
     margin-left: 5%; /*60px;*/
     margin-right: 5%; /*60px;*/
+    margin-bottom: 10px;
+    padding: 2px;
     width: 90%;
     background-color: white;
 }
