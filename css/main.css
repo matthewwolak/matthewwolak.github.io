@@ -218,6 +218,25 @@ footer {
 
 
 
+/* main content and sidebar */
+#main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+/*    width: 240px; */
+    width: 60%;
+
+}
+#rightbar {
+    position: relative;
+/*    margin-left: 250px; */
+    width: 30%
+}
+
+
+
+
 /* Blocks of pictures */
 /**	e.g., index.html study systems	**/
 /** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
