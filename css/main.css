@@ -192,6 +192,7 @@ footer {
     color: white;
     text-align: center;
     padding: 6px 16px;  /* top/bottom then right/left */
+    margin: 0px;
 }
 #main-nav li a:hover:not(.active) {
     background-color: #111;
