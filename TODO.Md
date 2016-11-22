@@ -1,9 +1,6 @@
 
 # Edits
 
-## Index
-   - center pics/boxes in menagerie of subjects
-
 ## Research
    - icons at top of research theme then display in box below when clicked
      - replace with new research when clicking on another theme
