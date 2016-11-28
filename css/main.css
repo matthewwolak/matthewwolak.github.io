@@ -239,7 +239,6 @@ footer {
 
 /* Blocks of pictures */
 /**	e.g., index.html study systems	**/
-/** See Responsive image gallery in css tutorial for screen sizes of different dimensions **/
 div.img {
     margin: 20px;
     display: inline-block;
