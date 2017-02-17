@@ -16,9 +16,6 @@
 
 		div.img:hover {
 		    border: none;
-<!-- padding-right/bottom needs to be=size of `div.img:hover{border}` -->
-<!--  if size by width	    padding-right: 3px; -->
-<!-- 		    padding-bottom: 3px;  -->
 		}
 
 		div.img img {
@@ -37,54 +34,54 @@
 		    text-align: center;
 		}
 
-<!-- Seamless responsive photo grid styling from: -->
-<!-- https://css-tricks.com/seamless-responsive-photo-grid/  -->
-#photos {
-   /* Prevent vertical gaps */
-   line-height: 4;
-   
-   -webkit-column-count: 5;
-   -webkit-column-gap:   10px;
-   -moz-column-count:    5;
-   -moz-column-gap:      10px;
-   column-count:         5;
-   column-gap:           10px;
-}
+		<!-- Seamless responsive photo grid styling from: -->
+		<!-- https://css-tricks.com/seamless-responsive-photo-grid/  -->
+		#photos {
+		   /* Prevent vertical gaps */
+		   line-height: 4;
+ 
+		   -webkit-column-count: 5;
+		   -webkit-column-gap:   10px;
+		   -moz-column-count:    5;
+		   -moz-column-gap:      10px;
+		   column-count:         5;
+		   column-gap:           10px;
+		}
 
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
+		#photos img {
+		  /* Just in case there are inline attributes */
+		  width: 100% !important;
+		  height: auto !important;
+		}
 
-@media (max-width: 1200px) {
-  #photos {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}
-@media (max-width: 1000px) {
-  #photos {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-}
-@media (max-width: 800px) {
-  #photos {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  #photos {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}
+		@media (max-width: 1200px) {
+		  #photos {
+		  -moz-column-count:    4;
+		  -webkit-column-count: 4;
+		  column-count:         4;
+		  }
+		}
+		@media (max-width: 1000px) {
+		  #photos {
+		  -moz-column-count:    3;
+		  -webkit-column-count: 3;
+		  column-count:         3;
+		  }
+		}
+		@media (max-width: 800px) {
+		  #photos {
+		  -moz-column-count:    2;
+		  -webkit-column-count: 2;
+		  column-count:         2;
+		  }
+		}
+		@media (max-width: 400px) {
+		  #photos {
+		  -moz-column-count:    1;
+		  -webkit-column-count: 1;
+		  column-count:         1;
+		  }
+		}
 
 
 
@@ -117,9 +114,9 @@
 <br>
                 <h3>Critters</h3>
 
-                <h4>Herps</h4>
+                <section id = "photos">
+                  <h4>Herps</h4>
 
-<section id = "photos">
   		  <div class="img">
   		    <a target="_blank" href="images/struggleforexistence2013_crop.jpg">
 		    <img src="images/struggleforexistence2013_crop.jpg" alt="Spider-Anole struggle for existence">
@@ -159,11 +156,12 @@
   		    <div class="desc">Ringneck snake<br>(<i>Diadophis punctatus</i>)<br>Riverside, CA</div>
 		  </div>
 
-</section>
+                </section>
 
-                <h4>Birds</h4>
 
-<section id = "photos">
+                <section id = "photos">
+                  <h4>Birds</h4>
+
   		  <div class="img">
   		    <a target="_blank" href="images/Peregrine_Pinnacles2009_crop.jpg">
 		    <img src="images/Peregrine_Pinnacles2009_crop.jpg" alt="Peregrine falcon">
@@ -179,11 +177,12 @@
   		    <div class="desc">Florida scrub jay<br>(<i>Aphelocoma coerulescens</i>)<br>Jupiter, FL</div>
 		  </div>
 
-</section>
+                </section>
 
+
+                <section id = "photos">
                 <h4>Mammals</h4>
 
-<section id = "photos">
   		  <div class="img">
   		    <a target="_blank" href="images/ElephantSeal_CA2009_crop.jpg">
 		    <img src="images/ElephantSeal_CA2009_crop.jpg" alt="Elephant seals">
@@ -199,8 +198,7 @@
   		    <div class="desc">Bull elk<br>(<i>Cervus canadensis</i>)<br>Yellowstone National Park</div>
 		  </div>
 
-
-</section>
+                </section>
 
 <br>
 <br>
