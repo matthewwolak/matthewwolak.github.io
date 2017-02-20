@@ -14,10 +14,12 @@
 		div.img {
 		    margin: 10px;
 		    height: 200px;
+                    filter: alpha(opacity=80); /* For IE8 and earlier */
                     opacity: 0.8;
 		}
 
 		div.img:hover {
+                    filter: alpha(opacity=100); /* For IE8 and earlier */
                     opacity: 1.0;
 		    border: none;
 		}
