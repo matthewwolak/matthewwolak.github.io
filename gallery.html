@@ -14,8 +14,6 @@
 		div.img {
 		    margin: 10px;
 		    height: 200px;
-                    filter: alpha(opacity=80); /* For IE8 and earlier */
-                    opacity: 0.8;
 		}
 
 		div.img:hover {
@@ -25,9 +23,11 @@
 		}
 
 		div.img img {
-		   width: auto;
- 		   height: 100%;
-		   border: #555 3px solid;
+		    width: auto;
+ 		    height: 100%;
+		    border: #555 3px solid;
+                    filter: alpha(opacity=80); /* For IE8 and earlier */
+                    opacity: 0.8;
 		}
 
 		div.desc {
