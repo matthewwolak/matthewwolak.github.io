@@ -194,7 +194,7 @@ footer {
     display: block;
     font-size: 1.75em;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 8px 18px 6px;  /* top, right/left, bottom */
     margin: 0px;
 }
