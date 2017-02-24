@@ -357,4 +357,15 @@ div.desc {
 }
 
 
+/* CRAN badges */
+img.badge {
+    display: block;
+    margin: 10px;
+    max-width: 50%;
+}
+img.badge img {
+    max-width: 100%;
+    height: auto;
+}
+
 
