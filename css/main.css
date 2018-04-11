@@ -250,16 +250,6 @@ li.dropdown {
 
 
 /* Main content and Sidebar */
-/***** Temporary 'delete'
-#main {
-    width: 65%;
-}
-#rightbar {
-    float: right;
-    width: 35%
-    padding-left: 2px;
-}
-****/
 .column {
     float: right;
     padding-left: 2px;
