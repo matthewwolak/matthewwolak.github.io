@@ -250,6 +250,7 @@ li.dropdown {
 
 
 /* Main content and Sidebar */
+/***** Temporary 'delete'
 #main {
     width: 65%;
 }
@@ -258,9 +259,23 @@ li.dropdown {
     width: 35%
     padding-left: 2px;
 }
-
-
-
+****/
+.column {
+    float: right;
+    padding-left: 2px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.main {
+    width: 65%;
+}
+.rightbar {
+    width: 35%;
+}
+   
 
 /* Blocks of pictures */
 /**	e.g., index.html study systems	**/
