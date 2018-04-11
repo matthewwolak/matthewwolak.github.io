@@ -254,6 +254,7 @@ li.dropdown {
     width: 65%;
 }
 #rightbar {
+    position: absolute;
     float: right;
     width: 35%
     padding-left: 2px;
